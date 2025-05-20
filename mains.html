@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bachelor of Science in Business Administration</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      background-image: url('BSBA.PNG');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 20px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo-container {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    nav .logo {
+      width: 50px;
+      height: auto;
+    }
+
+    nav .btn-container {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav .btn {
+      padding: 8px 15px;
+      font-size: 14px;
+      background-color: #00bfff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    nav .btn:hover {
+      background-color: #009acd;
+    }
+
+    main {
+      margin-top: 100px;
+      padding: 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    main h1 {
+      font-size: 2.2em;
+      margin-bottom: 15px;
+    }
+
+    main h2 {
+      font-size: 1.8em;
+      margin-bottom: 12px;
+    }
+
+    main p {
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin-top: auto;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      nav .logo {
+        width: 40px;
+      }
+
+      nav .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+      }
+
+      main h1 {
+        font-size: 1.8em;
+      }
+
+      main h2 {
+        font-size: 1.5em;
+      }
+
+      main p {
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo-container">
+      <img src="image4.png" alt="School Logo" class="logo">
+      <img src="BSBA-logo.png" alt="BSBA Logo" class="logo">
+    </div>
+    <div class="btn-container">
+      <button class="btn" onclick="window.location.href='about.html'">Career Opportunities</button>
+      <button class="btn" onclick="window.location.href='next.html'">Activities & Events</button>
+      <button class="btn" onclick="window.location.href='enroll.html'">How to Enroll</button>
+      <button class="btn" onclick="window.location.href='staff.html'">Meet the Staff</button>
+      <button class="btn" onclick="window.location.href='officers.html'">Officers</button>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h1>Bachelor of Science in Business Administration</h1>
+    <h2>Welcome to the BSBA Students Portal</h2>
+    <p>Your gateway to academic excellence and student life at Southern Mindanao Institute of Technology, Tacurong.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Southern Mindanao Institute of Technology</p>
+  </footer>
+
+</body>
+</html>
